@@ -1,0 +1,14 @@
+{ "author"      : "Quildreen Motta <quildreen@gmail.com> (http://killdream.github.com/)"
+, "name"        : "aegis"
+, "description" : "Evented lazy streams for everynyan."
+, "version"     : "0.1.0"
+, "main"        : "./src/index.js"
+
+, "repository"  : { "type" : "git"
+                  , "url"  : "git://github.com/killdream/aegis" }
+
+, "engines"              : {}
+, "dependencies"         : {}
+, "devDependencies"      : {}
+, "optionalDependencies" : {}
+}

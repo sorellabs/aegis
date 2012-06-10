@@ -1,14 +1,21 @@
-{ "author"      : "Quildreen Motta <quildreen@gmail.com> (http://killdream.github.com/)"
-, "name"        : "aegis"
-, "description" : "Evented lazy streams for everynyan."
-, "version"     : "0.1.0"
-, "main"        : "./src/index.js"
-
-, "repository"  : { "type" : "git"
-                  , "url"  : "git://github.com/killdream/aegis" }
-
-, "engines"              : {}
-, "dependencies"         : {}
-, "devDependencies"      : {}
-, "optionalDependencies" : {}
+{
+  "author": "Quildreen Motta <quildreen@gmail.com> (http://killdream.github.com/)",
+  "name": "aegis",
+  "description": "Asynchronous lazy streams for everynyan.",
+  "version": "0.1.0",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/killdream/aegis"
+  },
+  "engines": {},
+  "devDependencies": {
+    "noire": "~0.2.1",
+    "sinon": "~1.3.4",
+    "mocha": "~1.1.0"
+  },
+  "dependencies": {
+    "boo": "~1.2.0"
+  },
+  "optionalDependencies": {}
 }

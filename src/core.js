@@ -187,4 +187,6 @@ var Stream = Base.derive({
 
 
 //// == Exports ================================================================
-module.exports = { Stream: Stream }
+module.exports = { Stream: Stream
+
+                 , internal: { finished_p: finished_p }}

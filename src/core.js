@@ -102,7 +102,7 @@ var Stream = Base.derive({
                          finished_p(result)?  done(result.value)
                        : /* otherwise */      step(result, item, next) }
                    , done )
-    return this}
+    return this }
 
 
   ///// Function as_array //////////////////////////////////////////////////////
